@@ -1,4 +1,5 @@
 .App {
+  
   text-align: center;
 }
 
@@ -35,4 +36,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.addtocart{
+  min-width: 300px;
+  min-height: 300px;
+  border: 2px solid #282c34; 
+}
+.productname {
+  /* position:absolute; */
+  display: inline-block;
+  border: 1px solid rgba(99, 96, 96,0.5);
+  padding: 10px;
+  margin-top: 10px;
+  width: 200px;
+}
+.premove{
+  width: 20px;
+  background-color: crimson;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.cartcount{
+  margin: 0 auto;
+  width: 200px;
+  background-color: rgba(21, 82, 216, 0.9);
+  color:aliceblue;
+  padding: 10px 30px;
+}
+.count{
+  padding-left: 20px;
+}
+.add{
+  cursor: pointer;
+  border: none;
+  border: 1px solid blue;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgba(4, 85, 190, 0.979);
+  color: aliceblue;
+}
+input {
+  height: 32px;
+    font-size: 20px;
 }
